@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 const ThankYou = () => {
-    return (
-        <p>
-           thanks bitch 
-        </p>
-    )
-}
+	return (
+		<div align='center'>
+			<p>Thanks bitch</p>
+		</div>
+	);
+};
 
-export default ThankYou
+export default ThankYou;

@@ -12,11 +12,11 @@ const ActionArea = () => {
 	return (
 		<div className={styles.action_area}>
 			<h1 className={styles.h1}>
-				Sign up to receive a link to our FREE webinar
+				Sign up to receive a link to our <span className={styles.span}>FREE</span> webinar
 			</h1>
 			<p className={styles.p}>
-				Financial Freedom isn't just a fantasy - join us as we discuss exactly
-				what you need to do to escape the rat race
+				<span className={styles.joinUs}>Financial Freedom isn't just a fantasy - join us as we discuss exactly
+				what you need to do to escape the rat race</span>
 			</p>
 			{isSubmitted ? <ThankYou /> : <SignUp submitForm={submitForm} />}
 		</div>
