@@ -6,15 +6,14 @@
 	background: url('/gray-bg.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
+	text-align: center;
 }
 
 .h1 {
-	text-align: center;
 	text-transform: capitalize;
 	padding: 2rem;
 	color: black;
 	font-family: 'Jost', sans-serif;
-	font-weight: bold;
 
 	.span {
 		font-style: italic;
@@ -24,10 +23,43 @@
 
 .p {
 	font-family: 'Overlock', cursive;
-	text-align: center;
 	padding-bottom: 1.5rem;
 	font-size: 1.4rem;
 	font-weight: bold;
 	padding: 0 1rem 1rem 1rem;
 	color: rgba(0, 0, 0, 0.699);
+}
+
+.h2 {
+	margin: 1.5rem 0;
+	text-transform: capitalize;
+	font-family: 'Jost', sans-serif;
+}
+
+.h2_span {
+	color: rgb(0, 161, 167);
+}
+
+.wheel img {
+	height: 25%;
+	width: 25%;
+	border-top: 2px solid black;
+}
+
+.ul li {
+	text-transform: capitalize;
+	margin: 10px 0;
+	font-family: 'Overlock', cursive;
+	font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 700px) {
+	.wheel img {
+		height: 45%;
+		width: 45%;
+	}
+
+	.ul li {
+		margin: 10px;
+	}
 }

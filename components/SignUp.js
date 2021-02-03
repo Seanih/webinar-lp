@@ -35,11 +35,14 @@ const SignUp = ({ submitForm }) => {
 		margin: 10px 5px;
 		padding: 10px;
 		border-radius: 50px;
+		background-color: rgb(0, 180, 125);
+		color: white;
 		&:hover,
 		&:focus {
-			border: 3px solid ${props => props.theme.lightBlu};
+			border: 3px solid ${props => props.theme.darkCerulean75};
 			outline: none;
 			cursor: pointer;
+			background-color: rgb(0, 200, 175);
 		}
 	`;
 
@@ -49,6 +52,7 @@ const SignUp = ({ submitForm }) => {
 				<Input
 					type='email'
 					name='email'
+					placeholder='enter your email here'
 					ref={register({
 						required: {
 							value: true,
