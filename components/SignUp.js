@@ -12,7 +12,7 @@ const SignUp = ({ submitForm }) => {
 
 	const Input = styled.input`
 		font-size: large;
-		margin: 1rem 1rem 2rem 1rem;
+		margin: 1rem;
 		padding: 10px;
 		width: 50%;
 		max-width: 525px;
@@ -63,7 +63,7 @@ const SignUp = ({ submitForm }) => {
 				<Button type='submit' name='submit' />
 				{errors.email && (
 					<p style={{ paddingBottom: '1rem', fontWeight: 'bold' }}>
-						<span style={{ background: 'white' }}>{errors.email.message}</span>
+						<span>{errors.email.message}</span>
 					</p>
 				)}
 			</form>

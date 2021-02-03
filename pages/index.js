@@ -8,21 +8,23 @@ import styles from '../styles/Home.module.scss';
 export default function Home() {
 	return (
 		<ThemeProvider theme={theme}>
-			<div className={styles.container}>
-				<Head>
-					<title>Financial Freedom Webinar</title>
-					<link rel='icon' href='/favicon.ico' />
-					<meta
-						name='description'
-						content='Find out how to escape the financial rat race'
-					/>
-				</Head>
-
-				<main className={styles.main}>
-					<ActionArea />
-				</main>
-
-				<footer className={styles.footer}></footer>
+			<div className={styles.lp_body}>
+				<div className={styles.container}>
+					<Head>
+						<title>Financial Freedom Webinar</title>
+						<link rel='icon' href='/favicon.ico' />
+						<meta
+							name='description'
+							content='Find out how to escape the financial rat race'
+						/>
+					</Head>
+				
+					<main className={styles.main}>
+						<ActionArea />
+					</main>
+				
+					<footer className={styles.footer}></footer>
+				</div>
 			</div>
 		</ThemeProvider>
 	);
