@@ -32,14 +32,16 @@ const ActionArea = () => {
 			<>{isSubmitted ? <ThankYou /> : <SignUp submitForm={submitForm} />}</>
 
 			<h2 className={styles.h2}>Topics we'll be discussing:</h2>
-			<ul className={styles.ul}>
-				<li>stocks & options - make money in a bear OR bull market</li>
-				<li>growing your savings</li>
-				<li>getting out of consumer debt</li>
-				<li>building your credit score</li>
-				<li>buying real estate</li>
-				<li>& more!</li>
-			</ul>
+			<div className={styles.list}>
+				<ul className={styles.ul}>
+					<li>stocks & options - secure profits in a bear OR bull market</li>
+					<li>growing your savings</li>
+					<li>getting out of consumer debt</li>
+					<li>building your credit score</li>
+					<li>buying real estate</li>
+					<li>& more!</li>
+				</ul>
+			</div>
 		</div>
 	);
 };
