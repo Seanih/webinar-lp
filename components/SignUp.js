@@ -35,7 +35,7 @@ const SignUp = ({ submitForm }) => {
 		margin: 10px 5px;
 		padding: 10px;
 		border-radius: 50px;
-		background-color: rgb(0, 180, 125);
+		background-color: rgb(0, 161, 167);
 		color: white;
 		&:hover,
 		&:focus {

@@ -18,7 +18,7 @@ const ActionArea = () => {
 			<h2 className={styles.h2} style={{ marginTop: '0px' }}>
 				April 23rd, 2021
 				<br />
-				<span className={styles.h2_span}>6PM - 8PM EST</span>
+				<span className={styles.h2_span}>6PM - 8:30PM EST</span>
 			</h2>
 			<p className={styles.p}>
 				<span className={styles.joinUs}>
@@ -31,7 +31,7 @@ const ActionArea = () => {
 			</div>
 			<>{isSubmitted ? <ThankYou /> : <SignUp submitForm={submitForm} />}</>
 
-			<h2 className={styles.h2}>Topics we'll be discussing:</h2>
+			<h2 className={styles.h2} style={{color: 'rgb(0, 161, 167)'}}>Topics we'll be discussing:</h2>
 			<div className={styles.list}>
 				<ul className={styles.ul}>
 					<li>stocks & options - secure profits in a bear OR bull market</li>
@@ -39,7 +39,7 @@ const ActionArea = () => {
 					<li>getting out of consumer debt</li>
 					<li>building your credit score</li>
 					<li>buying real estate</li>
-					<li>& more!</li>
+					<li>Q&A + more!</li>
 				</ul>
 			</div>
 		</div>
