@@ -10,7 +10,7 @@ const ThankYou = () => {
 		<div align='center'>
 			<p style={thankYouStyles}>
 				Your email was successfully submitted! Please check your inbox for your
-				personal link.
+				invitation.
 			</p>
 		</div>
 	);

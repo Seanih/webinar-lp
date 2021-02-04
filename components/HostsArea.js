@@ -16,9 +16,8 @@ const HostsArea = () => {
 							@j_olivia
 						</a>
 						<p className={styles.p}>
-							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus
-							a optio deleniti, aliquid tenetur ullam! Harum vitae perspiciatis
-							veniam alias!
+							Janet is the founder and CEO of M.A.S. Financial Services. Prior
+							to that, she was the CFO of a Fortune 500 company for 4 years.
 						</p>
 					</div>
 					<div className={styles.image_border}>
@@ -47,9 +46,9 @@ const HostsArea = () => {
 							@tom-mccarthy
 						</a>
 						<p className={styles.p}>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-							nesciunt aliquid quam ratione, nam eius possimus. Perferendis,
-							amet distinctio! Possimus?
+							Thomas is a real estate investor with a 25 million dollar
+							portfolio. He also has 10 years of experience as a portfolio
+							manager.
 						</p>
 					</div>
 				</div>

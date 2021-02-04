@@ -1,6 +1,7 @@
 .hosts_area {
 	background: url('/bw-bg.jpg');
 	background-size: cover;
+	background-repeat: no-repeat;
 	padding: 2rem;
 }
 
@@ -16,15 +17,23 @@
 	color: var(--myBlue);
 	text-align: center;
 	margin-bottom: 2rem;
+	font-family: 'Jost', sans-serif;
+	font-size: 2rem;
 }
 
 .h3 {
 	color: white;
+	font-family: 'Jost', sans-serif;
 }
 
 .anchor {
 	color: var(--myBlue);
-	font-size: 1.2rem;
+	font-size: 1.3rem;
+	font-family: 'Jost', sans-serif;
+
+	&:hover {
+		color: rgb(32, 248, 255);
+	}
 }
 
 .female_div,
@@ -36,7 +45,7 @@
 	max-width: 1000px;
 	margin: auto;
 	text-align: center;
-	margin: 2rem 0;
+	padding: 2rem 0;
 }
 
 .female_info,
@@ -47,12 +56,28 @@
 .p {
 	color: rgb(255, 255, 255);
 	font-size: 1.2rem;
+	padding: 1rem;
+	font-family: 'Jost', sans-serif;
+}
+
+.image_border {
+	height: 210px;
+	width: 210px;
+	border: 5px solid orange;
+	// border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
 }
 
 .image {
 	height: 200px;
 	width: 200px;
-	border-radius: 50%;
+	// border-radius: 50%;
+	position: relative;
+	top: 15px;
+	left: 15px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -76,5 +101,15 @@
 	.p {
 		font-size: 1.4rem;
 		margin: 1rem 0;
+	}
+
+	.image_border,
+	.image {
+		position: static;
+	}
+
+	.female_info,
+	.male_info {
+		width: 90%;
 	}
 }
