@@ -31,7 +31,9 @@ const ActionArea = () => {
 			</div>
 			<>{isSubmitted ? <ThankYou /> : <SignUp submitForm={submitForm} />}</>
 
-			<h2 className={styles.h2} style={{color: 'rgb(0, 161, 167)'}}>Topics we'll be discussing:</h2>
+			<h2 className={styles.h2} style={{ color: 'var(--myBlue)' }}>
+				Topics we'll be discussing:
+			</h2>
 			<div className={styles.list}>
 				<ul className={styles.ul}>
 					<li>stocks & options - secure profits in a bear OR bull market</li>

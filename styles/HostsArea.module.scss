@@ -1,0 +1,80 @@
+.hosts_area {
+	background: url('/bw-bg.jpg');
+	background-size: cover;
+	padding: 2rem;
+}
+
+.hosts_container {
+	margin: 2rem;
+}
+
+.hosts-info {
+	margin: auto;
+}
+
+.h2 {
+	color: var(--myBlue);
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.h3 {
+	color: white;
+}
+
+.anchor {
+	color: var(--myBlue);
+	font-size: 1.2rem;
+}
+
+.female_div,
+.male_div {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+	text-align: center;
+	margin: 2rem 0;
+}
+
+.female_info,
+.male_info {
+	width: 60%;
+}
+
+.p {
+	color: rgb(255, 255, 255);
+	font-size: 1.2rem;
+}
+
+.image {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+	.female_div,
+	.male_div {
+		flex-direction: column;
+	}
+
+	.female_info {
+		order: 1;
+	}
+
+	.h3 {
+		font-size: 1.6rem;
+	}
+
+	.anchor {
+		font-size: 1.5rem;
+	}
+
+	.p {
+		font-size: 1.4rem;
+		margin: 1rem 0;
+	}
+}

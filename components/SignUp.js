@@ -1,6 +1,6 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
-import styled from 'styled-components';
+import styles from '../styles/SignUp.module.scss';
 
 const SignUp = ({ submitForm }) => {
 	const { register, handleSubmit, errors } = useForm();
@@ -10,49 +10,14 @@ const SignUp = ({ submitForm }) => {
 		submitForm();
 	};
 
-	const Input = styled.input`
-		font-size: large;
-		margin: 1rem;
-		padding: 10px;
-		width: 50%;
-		max-width: 525px;
-		border: 3px solid ${props => props.theme.darkCerulean};
-		border-radius: 10px;
-
-		@media only screen and (max-width: 900px) {
-			width: 60%;
-		}
-
-		&:hover,
-		&:focus {
-			border: 3px solid ${props => props.theme.lightBlu};
-			outline: none;
-		}
-	`;
-
-	const Button = styled.input`
-		font-size: large;
-		margin: 10px 5px;
-		padding: 10px;
-		border-radius: 50px;
-		background-color: rgb(0, 161, 167);
-		color: white;
-		&:hover,
-		&:focus {
-			border: 3px solid ${props => props.theme.darkCerulean75};
-			outline: none;
-			cursor: pointer;
-			background-color: rgb(0, 200, 175);
-		}
-	`;
-
 	return (
 		<div align='center'>
 			<form noValidate onSubmit={handleSubmit(onSubmit2)}>
-				<Input
+				<input
 					type='email'
 					name='email'
 					placeholder='enter your email here'
+					className={styles.email_field}
 					ref={register({
 						required: {
 							value: true,
@@ -64,7 +29,7 @@ const SignUp = ({ submitForm }) => {
 						},
 					})}
 				/>
-				<Button type='submit' name='submit' />
+				<input type='submit' name='submit' className={styles.button} />
 				{errors.email && (
 					<p style={{ paddingBottom: '1rem', fontWeight: 'bold' }}>
 						<span>{errors.email.message}</span>

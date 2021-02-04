@@ -4,6 +4,7 @@ import { ThemeProvider } from 'styled-components';
 import * as theme from '../public/theme';
 
 import styles from '../styles/Home.module.scss';
+import HostsArea from '../components/HostsArea';
 
 export default function Home() {
 	return (
@@ -21,6 +22,7 @@ export default function Home() {
 				
 					<main className={styles.main}>
 						<ActionArea />
+						<HostsArea />
 					</main>
 				
 					<footer className={styles.footer}></footer>
