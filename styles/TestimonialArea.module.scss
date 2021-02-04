@@ -1,0 +1,23 @@
+.testimonial_area {
+    background: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.h2 {
+    text-transform: capitalize;
+    color: rgb(99, 99, 99);
+}
+
+.testimonials {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial {
+    width: 30%;
+}
