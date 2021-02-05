@@ -8,36 +8,51 @@ const TestimonialArea = () => {
 			</h2>
 			<div className={styles.testimonials}>
 				<div className={styles.testimonial}>
-					<div className={styles.img_border}>
-						<img src='' alt='' className={styles.image} />
+					<div className={styles.pic_area}>
+						<div className={styles.pic_border}>
+							<img src='/person1.jpg' alt='attendee' className={styles.pic} />
+						</div>
+
+						<a href='https://twitter.com' target='_blank'>
+							@jane_luvs_doe
+						</a>
 					</div>
 					<h4 className={styles.h4}></h4>
 					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
-						voluptatum explicabo maiores inventore error distinctio corrupti
-						aspernatur ullam atque at.
+						"The knowledge I gained while talking with them helped me earn
+						enough passive income to finally quit my job!"
 					</p>
 				</div>
 				<div className={styles.testimonial}>
-					<div className={styles.img_border}>
-						<img src='' alt='' className={styles.image} />
+					<div className={styles.pic_area}>
+						<div className={styles.pic_border}>
+							<img src='/person2.jpg' alt='attendee' className={styles.pic} />
+						</div>
+
+						<a href='https://twitter.com' target='_blank'>
+							@mark_money
+						</a>
 					</div>
 					<h4 className={styles.h4}></h4>
 					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
-						voluptatum explicabo maiores inventore error distinctio corrupti
-						aspernatur ullam atque at.
+						"@mark_money & @j_olivia - Thank you so much! This was easily the
+						most useful webinar I've ever attended."
 					</p>
 				</div>
 				<div className={styles.testimonial}>
-					<div className={styles.img_border}>
-						<img src='' alt='' className={styles.image} />
+					<div className={styles.pic_area}>
+						<div className={styles.pic_border}>
+							<img src='/person3.jpg' alt='attendee' className={styles.pic} />
+						</div>
+
+						<a href='https://twitter.com' target='_blank'>
+							@shannon_hart
+						</a>
 					</div>
 					<h4 className={styles.h4}></h4>
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
-						voluptatum explicabo maiores inventore error distinctio corrupti
-						aspernatur ullam atque at.
+					<p className={styles.testimony_text}>
+						"Well done with useful info and opportunities to ask questions. I'm
+						so impressed with how helpful they were."
 					</p>
 				</div>
 			</div>

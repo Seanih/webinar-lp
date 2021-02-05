@@ -13,7 +13,9 @@ const ActionArea = () => {
 		<div className={styles.action_area}>
 			<h1 className={styles.h1}>
 				Sign up for our next <span className={styles.span}>FREE</span> financial
-				webinar
+				webinar <br />
+				Hosted by <span className={styles.h1_span}>Janet Oliviera</span> &{' '}
+				<span className={styles.h1_span}>Thomas McCarthy</span>
 			</h1>
 			<h2 className={styles.h2} style={{ marginTop: '0px' }}>
 				April 23rd, 2021
