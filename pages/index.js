@@ -6,6 +6,7 @@ import * as theme from '../public/theme';
 import styles from '../styles/Home.module.scss';
 import HostsArea from '../components/HostsArea';
 import Testimonial from '../components/TestimonialArea';
+import Footer from '../components/Footer';
 
 export default function Home() {
 	return (
@@ -27,7 +28,9 @@ export default function Home() {
 						<Testimonial />
 					</main>
 				
-					<footer className={styles.footer}></footer>
+					<footer>
+						<Footer />
+					</footer>
 				</div>
 			</div>
 		</ThemeProvider>

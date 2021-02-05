@@ -6,12 +6,11 @@ const SignUp = ({ submitForm }) => {
 	const { register, handleSubmit, errors } = useForm();
 
 	const onSubmit2 = data => {
-		console.log(data);
 		submitForm();
 	};
 
 	return (
-		<div align='center'>
+		<div id='sign-up' align='center'>
 			<form noValidate onSubmit={handleSubmit(onSubmit2)}>
 				<input
 					type='email'
@@ -31,7 +30,7 @@ const SignUp = ({ submitForm }) => {
 				/>
 				<input type='submit' name='submit' className={styles.button} />
 				{errors.email && (
-					<p style={{ paddingBottom: '1rem', fontWeight: 'bold' }}>
+					<p style={{ paddingBottom: '1rem', fontWeight: 'bold', color: 'darkRed' }}>
 						<span>{errors.email.message}</span>
 					</p>
 				)}

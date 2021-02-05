@@ -2,6 +2,7 @@ html,
 body {
 	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	scroll-behavior: smooth;
 }
 
 a {
@@ -16,5 +17,5 @@ a {
 }
 
 :root {
-	--myBlue: rgb(3, 194, 201);
+	--myBlue: rgb(0, 189, 196);
 }
