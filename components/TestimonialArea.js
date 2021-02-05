@@ -4,7 +4,7 @@ const TestimonialArea = () => {
 	return (
 		<div className={styles.testimonial_area}>
 			<h2 className={styles.h2}>
-				See how others have benefited from our previous webinars!
+				See how others have benefited from our previous webinars
 			</h2>
 			<div className={styles.testimonials}>
 				<div className={styles.testimonial}>

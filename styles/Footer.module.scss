@@ -1,1 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 
+.footer {
+	background: black;
+	height: 150px;
+}
+
+.footer_btn {
+	height: 3rem;
+	padding: 0 1rem;
+	cursor: pointer;
+	color: white;
+	background: rgb(5, 153, 121);
+	border-radius: 10px;
+	position: relative;
+	top: -1.5rem;
+	border-bottom: 5px solid rgb(1, 218, 171);
+
+	&:hover,
+	&:focus {
+		background: rgb(1, 218, 171);
+		color: black;
+		transform: scale(1.05, 1.05);
+		transition: 0.5s;
+	}
+
+	@media only screen and (max-width: 599px) {
+		width: 60%;
+	}
+}
+
+.white_rectangle {
+	height: 4px;
+	width: 90%;
+	background: white;
+	border-radius: 50%;
+	margin-bottom: 1rem;
+}
+
+.footer_bottom {
+	height: 50%;
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+
+	.company {
+		color: white;
+		font-family: 'Quintessential', cursive;
+		font-size: 1.1rem;
+	}
+
+	.copyright {
+		color: white;
+		font-family: 'Jost', sans-serif;
+		font-style: italic;
+	}
+
+	.tagline {
+		color: white;
+		font-family: cursive;
+		font-size: 1.1rem;
+	}
+}
+
+@media only screen and (max-width: 424px) {
+
+	.footer {
+		height: 230px;
+	}
+	.footer_bottom {
+		flex-direction: column;
+	}
+
+	.company,
+	.copyright,
+	.tagline {
+		margin-bottom: 1rem;
+	}
+}

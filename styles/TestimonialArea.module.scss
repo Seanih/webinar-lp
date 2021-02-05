@@ -65,4 +65,8 @@
 		font-family: 'Overlock', cursive;
 		color: rgb(102, 102, 102);
 	}
+
+	@media only screen and (max-width: 473px){
+		width: 60%;
+	}
 }
