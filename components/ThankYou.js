@@ -10,7 +10,7 @@ const thankYouStyles = {
 
 const ThankYou = () => {
 	return (
-		<div align='center' className={styles.fade_in}>
+		<div id='sign-up' align='center' className={styles.fade_in}>
 			<p style={thankYouStyles}>
 				Your email was successfully submitted! Please check your inbox for your
 				invitation.
