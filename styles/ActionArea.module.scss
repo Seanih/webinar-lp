@@ -28,7 +28,7 @@
 }
 
 .p {
-	font-family: 'Overlock', cursive;
+	font-family: 'Overlock', Arial, Helvetica, sans-serif;
 	padding-bottom: 1.5rem;
 	font-size: 1.4rem;
 	font-weight: bold;
@@ -39,7 +39,7 @@
 .h2 {
 	margin: 1.5rem 0;
 	text-transform: capitalize;
-	font-family: 'Jost', sans-serif;
+	font-family: 'Overlock', Arial, Helvetica, sans-serif;
 }
 
 .h2_span {
@@ -63,7 +63,7 @@
 .ul li {
 	text-transform: capitalize;
 	margin: 10px 0;
-	font-family: 'Overlock', cursive;
+	font-family: 'Overlock', Arial, Helvetica, sans-serif;
 	font-size: 1.3rem;
 	list-style-type: square;
 }

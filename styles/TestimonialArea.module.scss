@@ -62,11 +62,11 @@
 	}
 
 	p {
-		font-family: 'Overlock', cursive;
+		font-family: 'Overlock', Arial, Helvetica, sans-serif;
 		color: rgb(102, 102, 102);
 	}
 
-	@media only screen and (max-width: 473px){
+	@media only screen and (max-width: 473px) {
 		width: 60%;
 	}
 }
